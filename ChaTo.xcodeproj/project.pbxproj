@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2E043D3DC86BFC23596867 /* libPods-ChaTo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1E3287527F57F266E1A99E /* libPods-ChaTo.a */; };
+		9A8942421EF37B6F000422CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8942411EF37B6F000422CD /* main.m */; };
+		9A8942451EF37B6F000422CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8942441EF37B6F000422CD /* AppDelegate.m */; };
+		9A8942481EF37B6F000422CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8942471EF37B6F000422CD /* ViewController.m */; };
+		9A89424B1EF37B6F000422CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8942491EF37B6F000422CD /* Main.storyboard */; };
+		9A89424D1EF37B6F000422CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A89424C1EF37B6F000422CD /* Assets.xcassets */; };
+		9A8942501EF37B6F000422CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A89424E1EF37B6F000422CD /* LaunchScreen.storyboard */; };
+		9A89425B1EF37B6F000422CD /* ChaToTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A89425A1EF37B6F000422CD /* ChaToTests.m */; };
+		9A8942661EF37B6F000422CD /* ChaToUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8942651EF37B6F000422CD /* ChaToUITests.m */; };
+		9A8942741EF37B7B000422CD /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9A8942731EF37B7B000422CD /* podfile */; };
+		9AAE58451F00CC7F003DD5B2 /* SY_ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE58401F00CC7F003DD5B2 /* SY_ProgressView.m */; };
+		9AAE58461F00CC7F003DD5B2 /* SY_RecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE58421F00CC7F003DD5B2 /* SY_RecordEncoder.m */; };
+		9AAE58471F00CC7F003DD5B2 /* SY_AVFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE58441F00CC7F003DD5B2 /* SY_AVFView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8942571EF37B6F000422CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8942351EF37B6F000422CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A89423C1EF37B6F000422CD;
+			remoteInfo = ChaTo;
+		};
+		9A8942621EF37B6F000422CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8942351EF37B6F000422CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A89423C1EF37B6F000422CD;
+			remoteInfo = ChaTo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B1E3287527F57F266E1A99E /* libPods-ChaTo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChaTo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A89423D1EF37B6F000422CD /* ChaTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8942411EF37B6F000422CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A8942431EF37B6F000422CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A8942441EF37B6F000422CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A8942461EF37B6F000422CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A8942471EF37B6F000422CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A89424A1EF37B6F000422CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A89424C1EF37B6F000422CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A89424F1EF37B6F000422CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A8942511EF37B6F000422CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8942561EF37B6F000422CD /* ChaToTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaToTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A89425A1EF37B6F000422CD /* ChaToTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaToTests.m; sourceTree = "<group>"; };
+		9A89425C1EF37B6F000422CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8942611EF37B6F000422CD /* ChaToUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaToUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8942651EF37B6F000422CD /* ChaToUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaToUITests.m; sourceTree = "<group>"; };
+		9A8942671EF37B6F000422CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8942731EF37B7B000422CD /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		9AAE583F1F00CC7F003DD5B2 /* SY_ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SY_ProgressView.h; sourceTree = "<group>"; };
+		9AAE58401F00CC7F003DD5B2 /* SY_ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SY_ProgressView.m; sourceTree = "<group>"; };
+		9AAE58411F00CC7F003DD5B2 /* SY_RecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SY_RecordEncoder.h; sourceTree = "<group>"; };
+		9AAE58421F00CC7F003DD5B2 /* SY_RecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SY_RecordEncoder.m; sourceTree = "<group>"; };
+		9AAE58431F00CC7F003DD5B2 /* SY_AVFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SY_AVFView.h; sourceTree = "<group>"; };
+		9AAE58441F00CC7F003DD5B2 /* SY_AVFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SY_AVFView.m; sourceTree = "<group>"; };
+		BE7D19BC36EE8259A89CA133 /* Pods-ChaTo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaTo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaTo/Pods-ChaTo.release.xcconfig"; sourceTree = "<group>"; };
+		DCE2D90BCF7F0C12FEA602D7 /* Pods-ChaTo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaTo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaTo/Pods-ChaTo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A89423A1EF37B6F000422CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2E043D3DC86BFC23596867 /* libPods-ChaTo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8942531EF37B6F000422CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A89425E1EF37B6F000422CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		937B504C6DA7FA047C6BE0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E3287527F57F266E1A99E /* libPods-ChaTo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A8942341EF37B6F000422CD = {
+			isa = PBXGroup;
+			children = (
+				9A8942731EF37B7B000422CD /* podfile */,
+				9A89423F1EF37B6F000422CD /* ChaTo */,
+				9A8942591EF37B6F000422CD /* ChaToTests */,
+				9A8942641EF37B6F000422CD /* ChaToUITests */,
+				9A89423E1EF37B6F000422CD /* Products */,
+				9DBFE198DED59842FADC55CA /* Pods */,
+				937B504C6DA7FA047C6BE0DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A89423E1EF37B6F000422CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A89423D1EF37B6F000422CD /* ChaTo.app */,
+				9A8942561EF37B6F000422CD /* ChaToTests.xctest */,
+				9A8942611EF37B6F000422CD /* ChaToUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A89423F1EF37B6F000422CD /* ChaTo */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE583F1F00CC7F003DD5B2 /* SY_ProgressView.h */,
+				9AAE58401F00CC7F003DD5B2 /* SY_ProgressView.m */,
+				9AAE58411F00CC7F003DD5B2 /* SY_RecordEncoder.h */,
+				9AAE58421F00CC7F003DD5B2 /* SY_RecordEncoder.m */,
+				9AAE58431F00CC7F003DD5B2 /* SY_AVFView.h */,
+				9AAE58441F00CC7F003DD5B2 /* SY_AVFView.m */,
+				9A8942431EF37B6F000422CD /* AppDelegate.h */,
+				9A8942441EF37B6F000422CD /* AppDelegate.m */,
+				9A8942461EF37B6F000422CD /* ViewController.h */,
+				9A8942471EF37B6F000422CD /* ViewController.m */,
+				9A8942491EF37B6F000422CD /* Main.storyboard */,
+				9A89424C1EF37B6F000422CD /* Assets.xcassets */,
+				9A89424E1EF37B6F000422CD /* LaunchScreen.storyboard */,
+				9A8942511EF37B6F000422CD /* Info.plist */,
+				9A8942401EF37B6F000422CD /* Supporting Files */,
+			);
+			path = ChaTo;
+			sourceTree = "<group>";
+		};
+		9A8942401EF37B6F000422CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8942411EF37B6F000422CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A8942591EF37B6F000422CD /* ChaToTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A89425A1EF37B6F000422CD /* ChaToTests.m */,
+				9A89425C1EF37B6F000422CD /* Info.plist */,
+			);
+			path = ChaToTests;
+			sourceTree = "<group>";
+		};
+		9A8942641EF37B6F000422CD /* ChaToUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8942651EF37B6F000422CD /* ChaToUITests.m */,
+				9A8942671EF37B6F000422CD /* Info.plist */,
+			);
+			path = ChaToUITests;
+			sourceTree = "<group>";
+		};
+		9DBFE198DED59842FADC55CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE2D90BCF7F0C12FEA602D7 /* Pods-ChaTo.debug.xcconfig */,
+				BE7D19BC36EE8259A89CA133 /* Pods-ChaTo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A89423C1EF37B6F000422CD /* ChaTo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A89426A1EF37B6F000422CD /* Build configuration list for PBXNativeTarget "ChaTo" */;
+			buildPhases = (
+				A841D1588E4A3AA2292426F2 /* [CP] Check Pods Manifest.lock */,
+				9A8942391EF37B6F000422CD /* Sources */,
+				9A89423A1EF37B6F000422CD /* Frameworks */,
+				9A89423B1EF37B6F000422CD /* Resources */,
+				72BA56906BB7D5AACFE5E3F0 /* [CP] Embed Pods Frameworks */,
+				39F4B5453DDFFA957989B1E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaTo;
+			productName = ChaTo;
+			productReference = 9A89423D1EF37B6F000422CD /* ChaTo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8942551EF37B6F000422CD /* ChaToTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A89426D1EF37B6F000422CD /* Build configuration list for PBXNativeTarget "ChaToTests" */;
+			buildPhases = (
+				9A8942521EF37B6F000422CD /* Sources */,
+				9A8942531EF37B6F000422CD /* Frameworks */,
+				9A8942541EF37B6F000422CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8942581EF37B6F000422CD /* PBXTargetDependency */,
+			);
+			name = ChaToTests;
+			productName = ChaToTests;
+			productReference = 9A8942561EF37B6F000422CD /* ChaToTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A8942601EF37B6F000422CD /* ChaToUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8942701EF37B6F000422CD /* Build configuration list for PBXNativeTarget "ChaToUITests" */;
+			buildPhases = (
+				9A89425D1EF37B6F000422CD /* Sources */,
+				9A89425E1EF37B6F000422CD /* Frameworks */,
+				9A89425F1EF37B6F000422CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8942631EF37B6F000422CD /* PBXTargetDependency */,
+			);
+			name = ChaToUITests;
+			productName = ChaToUITests;
+			productReference = 9A8942611EF37B6F000422CD /* ChaToUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8942351EF37B6F000422CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "霜月";
+				TargetAttributes = {
+					9A89423C1EF37B6F000422CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 525HE53UKU;
+						ProvisioningStyle = Automatic;
+					};
+					9A8942551EF37B6F000422CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 525HE53UKU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A89423C1EF37B6F000422CD;
+					};
+					9A8942601EF37B6F000422CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 525HE53UKU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A89423C1EF37B6F000422CD;
+					};
+				};
+			};
+			buildConfigurationList = 9A8942381EF37B6F000422CD /* Build configuration list for PBXProject "ChaTo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A8942341EF37B6F000422CD;
+			productRefGroup = 9A89423E1EF37B6F000422CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A89423C1EF37B6F000422CD /* ChaTo */,
+				9A8942551EF37B6F000422CD /* ChaToTests */,
+				9A8942601EF37B6F000422CD /* ChaToUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A89423B1EF37B6F000422CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8942501EF37B6F000422CD /* LaunchScreen.storyboard in Resources */,
+				9A89424D1EF37B6F000422CD /* Assets.xcassets in Resources */,
+				9A8942741EF37B7B000422CD /* podfile in Resources */,
+				9A89424B1EF37B6F000422CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8942541EF37B6F000422CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A89425F1EF37B6F000422CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39F4B5453DDFFA957989B1E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaTo/Pods-ChaTo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72BA56906BB7D5AACFE5E3F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaTo/Pods-ChaTo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A841D1588E4A3AA2292426F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8942391EF37B6F000422CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE58461F00CC7F003DD5B2 /* SY_RecordEncoder.m in Sources */,
+				9A8942481EF37B6F000422CD /* ViewController.m in Sources */,
+				9A8942451EF37B6F000422CD /* AppDelegate.m in Sources */,
+				9A8942421EF37B6F000422CD /* main.m in Sources */,
+				9AAE58471F00CC7F003DD5B2 /* SY_AVFView.m in Sources */,
+				9AAE58451F00CC7F003DD5B2 /* SY_ProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8942521EF37B6F000422CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A89425B1EF37B6F000422CD /* ChaToTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A89425D1EF37B6F000422CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8942661EF37B6F000422CD /* ChaToUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8942581EF37B6F000422CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A89423C1EF37B6F000422CD /* ChaTo */;
+			targetProxy = 9A8942571EF37B6F000422CD /* PBXContainerItemProxy */;
+		};
+		9A8942631EF37B6F000422CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A89423C1EF37B6F000422CD /* ChaTo */;
+			targetProxy = 9A8942621EF37B6F000422CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8942491EF37B6F000422CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A89424A1EF37B6F000422CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A89424E1EF37B6F000422CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A89424F1EF37B6F000422CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A8942681EF37B6F000422CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A8942691EF37B6F000422CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A89426B1EF37B6F000422CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE2D90BCF7F0C12FEA602D7 /* Pods-ChaTo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 525HE53UKU;
+				INFOPLIST_FILE = ChaTo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ChaTo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A89426C1EF37B6F000422CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7D19BC36EE8259A89CA133 /* Pods-ChaTo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 525HE53UKU;
+				INFOPLIST_FILE = ChaTo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ChaTo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A89426E1EF37B6F000422CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 525HE53UKU;
+				INFOPLIST_FILE = ChaToTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ChaToTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaTo.app/ChaTo";
+			};
+			name = Debug;
+		};
+		9A89426F1EF37B6F000422CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 525HE53UKU;
+				INFOPLIST_FILE = ChaToTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ChaToTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaTo.app/ChaTo";
+			};
+			name = Release;
+		};
+		9A8942711EF37B6F000422CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 525HE53UKU;
+				INFOPLIST_FILE = ChaToUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ChaToUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChaTo;
+			};
+			name = Debug;
+		};
+		9A8942721EF37B6F000422CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 525HE53UKU;
+				INFOPLIST_FILE = ChaToUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ChaToUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChaTo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8942381EF37B6F000422CD /* Build configuration list for PBXProject "ChaTo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8942681EF37B6F000422CD /* Debug */,
+				9A8942691EF37B6F000422CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A89426A1EF37B6F000422CD /* Build configuration list for PBXNativeTarget "ChaTo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A89426B1EF37B6F000422CD /* Debug */,
+				9A89426C1EF37B6F000422CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A89426D1EF37B6F000422CD /* Build configuration list for PBXNativeTarget "ChaToTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A89426E1EF37B6F000422CD /* Debug */,
+				9A89426F1EF37B6F000422CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8942701EF37B6F000422CD /* Build configuration list for PBXNativeTarget "ChaToUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8942711EF37B6F000422CD /* Debug */,
+				9A8942721EF37B6F000422CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A8942351EF37B6F000422CD /* Project object */;
+}
